@@ -1,9 +1,9 @@
 # Update existing system
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 # Install CUPS server
-sudo apt-get install cups
+sudo apt-get install -y cups git
 sudo usermod -a -G lpadmin varun
 sudo cupsctl --remote-any
 sudo systemctl restart cups
