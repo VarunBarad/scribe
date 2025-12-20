@@ -1,0 +1,15 @@
+diff --git a/icc2ps/cmsio1.c b/icc2ps/cmsio1.c
+index 1f02720..17345ae 100755
+--- a/icc2ps/cmsio1.c
++++ b/icc2ps/cmsio1.c
+@@ -22,8 +22,10 @@
+ 
+ // ICC profile serialization
+ 
++#define _GNU_SOURCE
+ 
+ #include "lcms.h"
++#include <unistd.h>
+ 
+ // ----------------------------------------------------------------- Tag Serialization
+ 
