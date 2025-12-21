@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # Install CUPS server
-sudo apt-get install -y build-essential tix foomatic-filters groff dc cups git
+sudo apt-get install -y build-essential tix groff dc cups git
 sudo usermod -a -G lpadmin varun
 sudo cupsctl --remote-any
 sudo systemctl restart cups
