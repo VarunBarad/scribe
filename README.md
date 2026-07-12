@@ -9,4 +9,4 @@
 9. Use "Sukirtan" for Location
 10. Enable the "Share This Printer" checkbox
 11. Make "HP"
-12. Model "
+12. Model "HP LaserJet 1020 Foomatic/foo2zjs-z1"
