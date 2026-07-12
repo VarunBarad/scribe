@@ -10,6 +10,8 @@ sudo apt-get upgrade -y
 sudo apt-get install -y build-essential tix groff dc cups git
 sudo usermod -a -G lpadmin scribe
 sudo cupsctl --remote-any
+# Enable web interface
+sudo sed -i 's/^WebInterface No/WebInterface Yes/' /etc/cups/cupsd.conf
 sudo systemctl restart cups
 
 # Try accessing web-interface on http://<pi-ip-address>:631
