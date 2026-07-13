@@ -2,7 +2,7 @@
 
 # Update existing system
 sudo apt-get update
-sudo apt-get purge -y chromium rpi-imager sane-utils libsane-common
+sudo apt-get purge -y chromium rpi-imager
 sudo apt-get autoremove -y
 sudo apt-get upgrade -y
 
